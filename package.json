@@ -1,0 +1,23 @@
+{
+  "name": "phoenix-trader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ellipsis-labs/phoenix-sdk": "^2.0.2",
+    "@solana/web3.js": "^1.78.4",
+    "@types/bn.js": "^5.1.1",
+    "@types/node": "^20.6.0",
+    "bn.js": "^5.2.1",
+    "dotenv": "^16.3.1",
+    "fetch": "^1.1.0",
+    "typescript": "^5.2.2"
+  }
+}
